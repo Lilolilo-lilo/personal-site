@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const toggleMenu = () => {
         const isHidden = navMenu.classList.toggle('hidden');
-        hamburgerIcon.src = isHidden ? 'images/Icon menu.svg' : 'images/Icon close.svg';
+        hamburgerIcon.src = isHidden ? 'images/icon menu.svg' : 'images/icon close.svg';
     };
 
     document.getElementById('hamburgerIcon').addEventListener('click', toggleMenu);
