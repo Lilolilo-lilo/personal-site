@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Momotov</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+     <!-- Шапка -->
+    <nav class="hamburger-menu" id="hamburgerMenu">
+        <button class="hamburger-icon" id="hamburgerIcon" aria-label="Toggle menu">
+            <img src="images/Icon menu.svg" alt="Menu Icon" class="icon">
+        </button>
+        <ul id="navMenu" class="popup hidden" aria-hidden="true">
+            <li><a href="#">ГЛАВНАЯ</a></li>
+            <li><a href="#">РЕЗЮМЕ</a></li>
+            <li><a href="#">ПОРТФОЛИО</a></li>
+            <li><a href="#">МЫШЛЕНИЕ</a></li>
+            <li><a href="contacts.html">КОНТАКЫ</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="logo">
+            <a class="logo-text" href="index.html">
+                <img src="images/Logo.svg" alt="Логотип"> <span class="logo-text">Andrew Designer</span>
+            </a>
+        </div>
+        <div class="profile-pic">
+            <a href="about-me.html">
+                <img src="images/Icon about me.svg" alt="Профиль"> <span class="icon-about-me-text">Обо мне</span>
+            </a>
+        </div>
+    </header>
+
+     <!-- Левая колонка -->
+    <main class="main-content">
+        <div class="column left-column">
+            <div class="relative-wrapper">
+                <h1>Момотов Андрей продуктовый дизайнер</h1>
+                <img src="images/Stroke.svg" alt="Момотов Андрей" class="additional-image">
+                <p>Создаю продукты с нуля от исследования до <br> интерактивных прототипов и продаж.</p>
+                <div class="buttons">
+                    <button class="main-fill-button">Портфолио</button>
+                    <button class="main-outline-button">Резюме</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="column right-column">
+            <img src="images/Image main.png" alt="Изображение">
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
